@@ -1,0 +1,853 @@
+id_juego,keyword
+1,Proyecto
+1,Softskills
+1,Equipo
+1,Gestión
+1,Prince2
+1,E-Learning
+1,Project
+1,Team
+1,Management
+2,Buenas Prácticas
+2,IT
+2,Good Practices
+2,TI
+3,Lean
+3,Calidad
+3,Quality
+4,Scrum
+4,Pila De Producto
+4,Product Backlog
+5,TI
+5,Tormenta De Ideas
+5,Análisis Rápido
+5,IT
+5,Brainstorming
+5,Quickscan
+6,Simulación
+6,Scrum
+6,Equipo
+6,Cascada
+6,Tiempo
+6,Simulation
+6,Team
+6,Waterfall
+6,Time
+7,Simulación
+7,Gestión
+7,Mercado
+7,Contabilidad
+7,Simulation
+7,Management
+7,Market
+7,Accounting
+8,Estrategia
+8,Teoría De Juegos
+8,Strategy
+8,Games Theory
+9,5S
+9,Puzle
+9,Lean
+9,Logística
+9,Logistics
+10,Lean
+10,SMED
+10,Simulación
+10,Máquina
+10,Simulation
+10,Machine
+11,Diseño
+11,Flujo De Una Sola Pieza
+11,Kanban
+11,Layout
+11,One Piece Flow
+12,Diagrama De Espina De Pez
+12,Tormenta De Ideas
+12,Seis Sigma
+12,Doe
+12,Fishbone Diagrams
+12,Brainstorming
+12,Six Sigma
+13,Análisis De Pareto
+13,Calidad
+13,Pareto Analysis
+13,Quality
+14,Lean
+14,Negocio
+14,Finanzas
+15,6S
+15,5S
+15,Lean
+16,5S
+16,Números
+16,Caos
+16,Orden
+16,Logística
+16,Numbers
+16,Chaos
+16,Order
+16,Logistics
+17,5S
+17,LEGO
+18,Cadena
+18,Suministro
+18,Cerveza
+18,Inventario
+18,Efecto Látigo
+18,Mit
+18,Supply Chain
+18,Beer
+18,Stock
+18,Whip Effect
+19,Gerente
+19,Recursos
+19,Estrategia
+19,Liderazgo
+19,Multijugador
+19,Competición
+19,E-Learning
+19,Managing
+19,Resources
+19,Strategy
+19,Leadership
+19,Multiplayer
+19,Competition
+20,5S
+20,Abecedario
+20,Alphabet
+21,Lean
+21,Proyecto
+21,Gestión
+21,Project
+21,Management
+22,Adam Smith
+22,Precio
+22,Valor
+22,Price
+22,Value
+23,Adam Smith
+23,Sociedad
+23,Bien Común
+23,Individualismo
+23,Mercado
+23,Society
+23,Comun Benefict
+23,Individualism
+23,Market
+24,E-Learning
+24,Gestión
+24,Comercio
+24,Consultoría
+24,Management
+24,Commerce
+24,Business Consulting
+25,Proyecto
+25,Director
+25,Simulación
+25,Liderazgo
+25,Habilidad
+25,E-Learning
+25,Project
+25,Manager
+25,Simulation
+25,Leadership
+25,Skills
+26,Lean
+26,Kanban
+26,Esperas
+26,Delay
+27,Lean
+27,SMED
+27,5S
+28,Células De Producción
+28,Kanban
+28,Lean
+28,Distribución Por Talleres
+28,Production Cells
+28,Distribution By Workshops
+29,Kanban
+29,Flow
+29,Tirar
+29,Flujo
+29,Pull
+30,Trabajo En Equipo
+30,Liderazgo
+30,Estrategia
+30,Teamwork
+30,Leadership
+30,Strategy
+31,5S
+32,Supply Chain
+32,Lean
+32,Talk Time
+32,Value Stream Mapping
+32,Cadena De Suministro
+32,Tiempo De Hablar
+32,Mapeo De La Corriente
+33,Riesgos
+33,Laborales
+33,Simulación
+33,Prevención
+33,Risk
+33,Working
+33,Simulation
+33,Prevention
+34,Riesgos
+34,Laborales
+34,Conflictos
+34,Simulación
+34,Online
+34,Risk
+34,Working
+34,Conflicts
+34,Simulation
+34,Prevention
+35,Cadena De Suministro
+35,Justo A Tiempo
+35,Simulación
+35,En Línea
+35,Supply Chain
+35,Just In Time
+35,Simulation
+35,Online
+36,5 Pasos De Enfoque
+36,Teoría De Las Restricciones
+36,Lean
+36,Técnicas Ágiles
+36,5 Focusing Steps
+36,Theory Of Constraints
+36,Agile
+37,Wip
+37,Trabajo En Proceso
+37,Lean
+37,Work In Process
+38,Scrum
+38,Técnicas Ágiles
+38,Agile
+39,Kanban
+39,Empujar
+39,Tirar
+39,Lean
+39,Push
+39,Pull
+40,Liderazgo
+40,Equipo
+40,Scrum
+40,Leadership
+40,Team
+41,Flujo De Una Sola Pieza
+41,Lean
+41,Lote Y Cola
+41,One Piece Flow
+41,Batch & Queue
+42,Scrum
+42,Imprimir Y Jugar
+42,Print And Play
+43,Wip
+43,Multitarea
+43,Tiempo
+43,Multitask
+43,Time
+44,Kanban
+44,Lean
+44,Ágil
+44,Agile
+45,Seis Sigma
+45,Lean
+45,Six Sigma
+46,Scrum
+46,Ágil
+46,Lean
+46,PDCA
+46,Trabajo En Equipo
+46,Agile
+46,Team Building
+47,Lean
+47,Logística
+47,Toyota
+47,Logistics
+48,RTY
+48,Rendimiento De Procesamiento Laminado
+48,Lean
+48,Seis Sigma
+48,Rolled Throughtput Yield
+48,Six Sigma
+49,Lean
+49,Kaizen
+49,Push
+49,Pull
+50,Lean
+50,Kanban
+51,Lotes
+51,Flujo De Una Sola Pieza
+51,Lean
+51,Batch
+51,One Piece Flow
+52,Kanban
+52,Pizza
+52,Lean
+52,Ágil
+52,Agile
+53,LEGO
+53,Scrum
+53,Ágil
+53,Agile
+54,Lista De Interesados
+54,Valor Comercial
+54,Cartera De Pedidos De Producto
+54,Stakeholders
+54,Business Value
+54,Product Backlog
+55,Poker
+55,Tareas
+55,Estimación
+55,Tasks
+55,Estimation
+56,Juego
+56,Lean
+56,Software
+56,Bicicleta
+56,Game
+56,Bicycle
+57,Six Sigma
+57,Video
+57,Game
+57,Seis Sigma
+57,Vídeo
+57,Juego
+58,Trabajo En Equipo
+58,Lip Dub
+58,Actividades Para La Empresa
+58,Team Building
+58,Activities For The Company
+141,Dirección De Proyectos
+141,Dirección Estratégica
+141,Dirección De Operaciones
+141,Gice
+141,SIGE
+141,Dirección De Empresas
+141,Entorno Económico
+141,Automatización Industrial
+141,Diseño De Sistemas Productivos
+141,TICs
+141,Métodos cuantitativos
+141,Ingeniería Económica
+141,Estad...
+141,NA
+59,Trabajo En Equipo
+59,Olimpiadas Empresariales
+59,Actividades Para La Empresa
+59,Team Building
+59,Business Olympics
+59,Activities For Company
+60,Trabajo En Equipo
+60,Actividades Para La Empresa
+60,Huevo
+60,Team Building
+60,Activities For Company
+60,Egg
+61,Seis Sigma
+61,Teoría De Las Restricciones
+61,Lean
+61,Six Sigma
+61,Theory Of Constraints
+62,Lean
+62,Cuellos De Botella
+62,Calidad
+62,Proyecto
+62,Bottleneck
+62,Quality
+62,Project
+63,Lean
+63,Caja
+63,Cuellos De Botella
+63,Teoría De Las Restricciones
+63,Box
+63,Bottleneck
+63,Theory Of Constraints
+64,Mapeo De Flujo
+64,5S
+64,8 Desperdicios
+64,Value Stream Mapping
+64,8 Wastes
+65,Six Sigma
+65,Doe
+65,Variability
+65,Seis Sigma
+65,Variabilidad
+66,Lean
+66,Trabajo Equilibrado
+66,Vídeo
+66,Work Balancing
+66,Video
+67,Start-Up
+67,Lean
+67,Cliente
+67,Costumer
+68,Trabajo En Equipo
+68,PDCA
+68,Team Building
+69,5S
+69,Vídeo
+69,Organization
+69,Control Visual
+69,Estandarización
+69,Video
+69,Visual Controls
+69,Standardization
+70,Multitarea
+70,Software
+70,Multitask
+71,Kaizen
+71,Trabajo En Equipo
+71,Líder
+71,Team Building
+71,Leadership
+72,Ágil
+72,Entrenamiento
+72,Agile
+72,Coaching
+73,Scrum
+73,Trabajo En Equipo
+73,Team Building
+74,Ágil
+74,LEGO
+74,Cascada
+74,Agile
+74,Waterfall
+75,Scrum
+75,Trabajo En Equipo
+75,Software
+75,Team Building
+76,Abecedario
+76,Multitarea
+76,Wip
+76,Ágil
+76,Alphabet
+76,Multitask
+76,Agile
+77,Cascada
+77,Ágil
+77,Lean
+77,Waterfall
+77,Agile
+78,Principios
+78,Kanban
+78,Trabajo En Equipo
+78,Principles
+78,Team Building
+79,Cascada
+79,Trabajo En Equipo
+79,Scrum
+79,Posits
+79,Waterfall
+79,Team Building
+80,Equipo
+80,Habilidad
+80,Defecto
+80,Team
+80,Skills
+80,Default
+81,Trabajo En Equipo
+81,Equipo
+81,Scrum
+81,Ágil
+81,Team Building
+81,Team
+81,Agile
+82,Matriz-X
+82,Puzle
+82,X-Matrix
+82,Puzzle
+83,Cultura Del Fallo
+83,Memoria
+83,Failure Culture
+83,Memory
+84,Interesados
+84,Propietario Del Producto
+84,Gestión
+84,Stakeholders
+84,Product Owner
+84,Management
+85,Desarrollo Del Producto
+85,Pila Del Producto
+85,Trabajo En Equipo
+85,Product Development
+85,Product Backlog
+85,Team Building
+86,Minecraft
+86,Scrum
+86,Simulación
+86,Simulation
+87,Trabajo En Equipo
+87,Estimación
+87,Wip
+87,Team Building
+87,Estimation
+88,Ágil
+88,Metodología
+88,Trabajo En Equipo
+88,Agile
+88,Methodology
+88,Team Building
+89,Trabajo En Equipo
+89,Propietario Del Producto
+89,Stephen
+89,Covey
+89,Matriz
+89,Team Building
+89,Product Owner
+89,Matrix
+90,Cascada
+90,Ágil
+90,Trabajo En Equipo
+90,Tradicional
+90,Waterfall
+90,Agile
+90,Team Building
+90,Traditional
+91,Ágil
+91,Bloques
+91,Retroalimentación
+91,Agile
+91,Blocks
+91,Feedback
+92,Incertidumbre
+92,Ambigüedad
+92,Cartas
+92,Desafío
+92,Uncertainty
+92,Ambiguity
+92,Cards
+92,Challenge
+93,Scrum
+93,Stand-Up
+93,Simulación
+93,Simulation
+94,Equipo
+94,Práctica
+94,Team
+94,Practice
+95,Ágil
+95,Verbal
+95,Juego
+95,Agile
+95,Game
+96,Scrum
+96,Ágil
+96,LEGO
+96,Mapas De Historia
+96,Agile
+96,Story Maps
+97,Scrum
+97,Sandwich
+97,Ágil
+97,Retrospectiva
+97,Agile
+97,Retrospective
+98,Equipo
+98,Brainwriting
+98,Ágil
+98,Brainstorming
+98,Team
+98,Agile
+98,Tormenta De Ideas
+99,Scrum
+99,Retrospectiva
+99,Retrospective
+100,Scrum
+100,Acciones Smart
+100,Equipo
+100,Smart Actions
+100,Team
+101,Scrum
+101,Ágil
+101,Equipo
+101,DAFO
+101,Agile
+101,Team
+102,Kanban
+102,Trabajo En Equipo
+102,Tablero
+102,Team Building
+102,Board
+103,Software
+103,Ágil
+103,Gestión
+103,Empresa
+103,Agile
+103,Management
+103,Business
+104,Scrum
+104,Pila De Producto
+104,Revista
+104,Trabajo En Equipo
+104,Product Backlog
+104,Magazine
+104,Tema Building
+105,Got
+105,Juego De Tronos
+105,Gestión De Proyectos
+105,Game Of Thrones
+105,Project Management
+106,Gantt
+106,Gestión De Proyectos
+106,Online
+106,Project Management
+107,Gestión De Proyectos
+107,F1
+107,Project Management
+108,Software
+108,Gestión De Proyectos
+108,Online
+108,Project Management
+109,Gestión De Proyectos
+109,Riesgos
+109,Tablero
+109,Juego
+109,Project Management
+109,Risk
+109,Board
+109,Game
+110,Retrospective
+110,Cards
+110,Scrum
+110,Retrospectiva
+110,Cartas
+111,Equipo
+111,Trabajo En Equipo
+111,Tablero
+111,Team
+111,Team Building
+111,Board
+112,Trabajo En Equipo
+112,Oscar
+112,Roles Grupales
+112,Team Building
+112,Group Roles
+113,Satisfacción
+113,Motivación
+113,Cielo
+113,Infierno
+113,Lugar De Trabajo
+113,Satisfaction
+113,Motivation
+113,Heaven
+113,Hill
+113,Workplace
+114,Proyecto
+114,Éxito
+114,Interesados
+114,Ágil
+114,Project
+114,Success
+114,Stakeholders
+114,Agile
+115,Ágil
+115,Cuatro
+115,Valores
+115,Agile
+115,Four
+115,Value
+116,Hecho
+116,Proyecto
+116,Definición
+116,Done
+116,Project
+116,Definition
+117,Kanban
+117,Wip
+117,Lean
+117,Ágil
+117,Agile
+118,Obstáculos
+118,Resultados
+118,Lenguaje Limpio
+118,Obstacles
+118,Outcomes
+118,Clean Language
+119,Retrospectiva
+119,Cohete
+119,Retrospective
+119,Rocket
+120,LEGO
+120,Flujo
+120,Kanban
+120,Cascada
+120,Scrum
+120,Flow
+120,Waterfall
+121,Riesgos
+121,Gestión
+121,Proyecto
+121,Risk
+121,Management
+121,Project
+122,Conflictos
+122,Desafío
+122,Conflicts
+122,Challenge
+123,Start-Up
+123,RRHH
+123,Gamification
+123,Gamificación
+140,Dirección De Proyectos
+140,Dirección Estratégica
+140,Dirección De Operaciones
+140,Gice
+140,SIGE
+140,Dirección De Empresas
+140,Entorno Económico
+140,Automatización Industrial
+140,Diseño De Sistemas Productivos
+140,TICs
+140,Métodos cuantitativos
+140,Ingeniería Económica
+140,Estad...
+140,NA
+139,Dirección De Proyectos
+139,Dirección Estratégica
+139,Dirección De Operaciones
+139,Gice
+139,SIGE
+139,Dirección De Empresas
+139,Entorno Económico
+139,Automatización Industrial
+139,Diseño De Sistemas Productivos
+139,TICs
+139,Métodos cuantitativos
+139,Ingeniería Económica
+139,Estad...
+139,NA
+124,Gamificación
+124,Microsoft
+124,Office
+124,Gamification
+125,Gamificación
+125,Juego
+125,Gamification
+125,Game
+138,Dirección De Proyectos
+138,Dirección Estratégica
+138,Dirección De Operaciones
+138,Gice
+138,SIGE
+138,Dirección De Empresas
+138,Entorno Económico
+138,Automatización Industrial
+138,Diseño De Sistemas Productivos
+138,TICs
+138,Métodos cuantitativos
+138,Ingeniería Económica
+138,Estad...
+138,NA
+126,Empresa
+126,Heroe
+126,Estrategia
+126,Start-Up
+126,Company
+126,Strategy
+127,Equipo
+127,Proyecto
+127,Responsabilidades
+127,Team
+127,Project
+127,Responsibilities
+128,Mapeo De Flujo
+128,Flujo
+128,Cynefin
+128,Value Stream Mapping
+128,Flow
+129,Equipo
+129,Roles
+129,Estrategia
+129,Team
+129,Strategy
+130,Improvisación
+130,Juego
+130,Improvisation
+130,Game
+131,Castigos
+131,Recompensas
+131,Individualidades
+131,Equipo
+131,Punishments
+131,Rewards
+131,Team
+131,Individuals
+137,Dirección De Proyectos
+137,Dirección Estratégica
+137,Dirección De Operaciones
+137,Gice
+137,SIGE
+137,Dirección De Empresas
+137,Entorno Económico
+137,Automatización Industrial
+137,Diseño De Sistemas Productivos
+137,TICs
+137,Métodos cuantitativos
+137,Ingeniería Económica
+137,Estad...
+137,Competition
+137,Question
+137,Game
+132,Multitarea
+132,Costes
+132,Multitask
+132,Costs
+133,Retrospectiva
+133,Matriz
+133,Proyecto
+133,Retrospective
+133,Matrix
+133,Project
+134,Mapa
+134,Empatía
+134,Marketing
+134,Cliente
+134,Map
+134,Empathy
+134,Client
+135,Juego Serio
+135,Mejorar
+135,Empresa
+135,Serious Game
+135,Improve
+135,Company
+136,Poker
+136,Estimación
+136,Scrum
+136,Estimation
+142,Software
+142,Java
+142,Programación
+142,Online
+142,Programming
+143,Software
+143,Programación
+143,Online
+143,Programming
+144,Lean
+144,Production
+144,Simulation
+144,Throughput
+144,Inventory
+144,Manufacturing
+145,Lean
+145,Kaizen
+145,5S
+145,Pull
+145,Flow
+145,Continuous improvement
+146,Six Sigma
+146,Quality
+146,RTY
+146,Defects
+146,Process
+146,Statistics
+147,TOC
+147,Bottleneck
+147,DBR
+147,Production planning
+147,Operations management
+147,Simulation

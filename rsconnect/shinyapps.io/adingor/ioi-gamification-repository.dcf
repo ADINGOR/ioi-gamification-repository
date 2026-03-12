@@ -1,0 +1,12 @@
+name: ioi-gamification-repository
+title: ioi-gamification-repository
+username: adingor
+account: adingor
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16874167
+bundleId: 11699151
+url: https://adingor.shinyapps.io/ioi-gamification-repository/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
