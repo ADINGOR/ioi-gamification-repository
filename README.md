@@ -79,19 +79,16 @@ The work builds upon a **Bachelor's Thesis developed within the INSISOC research
 https://www.insisoc.uva.es/
 
 
-## Repository Structure
+## Repository structure
 
-    ioi-gamification-repository
-
-      app.R
-
-    data_clean/
-      juegos.csv
-      juegos_asignaturas.csv
-      juegos_keywords.csv
-
-    README.md
-    LICENSE
+- **app.R** – Main Shiny application.
+- **data_clean/** – Cleaned datasets used by the application.
+  - **juegos.csv** – Core dataset containing the catalogue of gamification games.
+  - **juegos_asignaturas.csv** – Links games with IOI subjects.
+  - **juegos_keywords.csv** – Links games with thematic keywords.
+  - **fichas/** – Advanced teaching sheets in PDF format for selected games.
+- **README.md** – Documentation of the project.
+- **LICENSE** – MIT open-source license.
 
 
 ## Contributing
