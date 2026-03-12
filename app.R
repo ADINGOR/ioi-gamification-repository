@@ -6,6 +6,8 @@ library(bslib)
 library(stringr)
 library(htmltools)
 
+addResourcePath("fichas", "data_clean/fichas")
+
 #--------------------------------------------------
 # 1. Cargar datos
 #--------------------------------------------------
