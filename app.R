@@ -6,8 +6,6 @@ library(bslib)
 library(stringr)
 library(htmltools)
 
-addResourcePath("fichas", "data_clean/fichas")
-
 #--------------------------------------------------
 # 1. Cargar datos
 #--------------------------------------------------
@@ -95,8 +93,6 @@ juegos_full <- juegos %>%
   mutate(
     asignaturas = replace_na(asignaturas, ""),
     keywords = replace_na(keywords, ""),
-    ficha_pdf = replace_na(ficha_pdf, ""),
-    tiene_ficha = ficha_pdf != "",
     texto_busqueda = paste(
       nombre, descripcion, nombre_empresa, idioma, ambito,
       precio, registro, asignaturas, keywords,
@@ -125,9 +121,14 @@ ui <- page_navbar(
           p("El buscador permite filtrar los recursos por asignatura, keyword, idioma o necesidad de registro, así como realizar búsquedas por texto libre en nombre, descripción o temática del juego."),
           
           p("El objetivo es facilitar el acceso a materiales docentes que permitan incorporar dinámicas de aprendizaje activo y gamificación en asignaturas del ámbito de la organización industrial."),
-          
-          p("Algunos juegos incluyen además una ficha avanzada en PDF con información docente más detallada sobre su uso, objetivos de aprendizaje y posibles formas de implementación en el aula.")
-        )
+          p(
+            "Puede verse una breve introducción al repositorio docente en: ",
+            tags$a(
+              "Vídeo de introducción en YouTube",
+              href = "https://youtu.be/Bgrrctx4IsA",
+              target = "_blank")
+            )
+          )
       ),
       
       br(),
@@ -142,8 +143,8 @@ ui <- page_navbar(
           tags$p(
             "Puedes probarlo aquí: ",
             tags$a(
-              href = "https://chatgpt.com/g/g-H7fZGRAt5-aprendizaje-interactivo-en-ing-de-organizacion",
-              target = "_blank",
+              href="https://chatgpt.com/g/g-H7fZGRAt5-aprendizaje-interactivo-en-ing-de-organizacion",
+              target="_blank",
               "Aprendizaje interactivo en Ingeniería de Organización"
             )
           )
@@ -160,8 +161,8 @@ ui <- page_navbar(
           tags$p(
             "La explicación detallada de la creación de este repositorio puede consultarse en: ",
             tags$a(
-              href = "https://epsapps.udg.edu/cioblog/index.php/2019/12/13/repositorio-de-juegos-para-el-aula/",
-              target = "_blank",
+              href="https://epsapps.udg.edu/cioblog/index.php/2019/12/13/repositorio-de-juegos-para-el-aula/",
+              target="_blank",
               "Repositorio de juegos para el aula"
             )
           )
@@ -175,27 +176,20 @@ ui <- page_navbar(
         card_body(
           p("Esta aplicación ha sido desarrollada por la ",
             tags$a(
-              href = "https://adingor.net/comision-coordinacion-docente/",
-              target = "_blank",
+              href="https://adingor.net/comision-coordinacion-docente/",
+              target="_blank",
               "Comisión de Coordinación Docente de ADINGOR"
             ),
             " a partir del trabajo realizado en un Trabajo Fin de Grado desarrollado en el seno del ",
             tags$a(
-              href = "https://www.insisoc.uva.es/",
-              target = "_blank",
+              href="https://www.insisoc.uva.es/",
+              target="_blank",
               "grupo INSISOC de la Universidad de Valladolid"
             ),
             "."
           ),
           
-          tags$p(
-            "El código fuente de la aplicación y la base de datos están disponibles en GitHub: ",
-            tags$a(
-              href = "https://github.com/ADINGOR/ioi-gamification-repository",
-              target = "_blank",
-              "Repositorio de código"
-            )
-          )
+          p("El código fuente de la aplicación y la base de datos están disponibles en GitHub (enlace pendiente de incorporar).")
         )
       ),
       
@@ -209,14 +203,8 @@ ui <- page_navbar(
           tags$p(
             "Contacto: ",
             tags$a(
-              href = "mailto:jmgalan@ubu.es",
-              "José Manuel Galán"
-            ),
-            " o cualquier otro miembro de la ",
-            tags$a(
-              href = "https://adingor.net/comision-coordinacion-docente/",
-              target = "_blank",
-              "Comisión de Coordinación Docente de ADINGOR"
+              href="mailto:jmgalan@ubu.es",
+              "José Manuel Galán Ordax"
             )
           ),
           
@@ -267,8 +255,6 @@ ui <- page_navbar(
         ),
         
         checkboxInput("solo_url", "Solo juegos con URL", value = FALSE),
-        
-        checkboxInput("solo_ficha", "Solo juegos con ficha avanzada", value = FALSE),
         
         br(),
         strong(textOutput("n_resultados"))
@@ -338,11 +324,6 @@ server <- function(input, output, session) {
       df <- df %>% filter(!is.na(url), url != "")
     }
     
-    # solo ficha avanzada
-    if (isTRUE(input$solo_ficha)) {
-      df <- df %>% filter(tiene_ficha)
-    }
-    
     df %>% arrange(nombre)
   })
   
@@ -364,8 +345,7 @@ server <- function(input, output, session) {
         Ámbito = ambito,
         Empresa = nombre_empresa,
         Precio = precio,
-        Registro = registro,
-        `Ficha avanzada` = ifelse(tiene_ficha, "Sí", "No")
+        Registro = registro
       )
     
     datatable(
@@ -407,25 +387,11 @@ server <- function(input, output, session) {
         tags$p(tags$strong("Empresa: "), juego$nombre_empresa),
         tags$p(tags$strong("Precio: "), juego$precio),
         tags$p(tags$strong("Registro: "), juego$registro),
-        tags$p(tags$strong("Ficha avanzada disponible: "), ifelse(juego$tiene_ficha, "Sí", "No")),
         
         if (!is.na(juego$descripcion) && juego$descripcion != "") {
           tagList(
             tags$h4("Descripción"),
             tags$p(juego$descripcion)
-          )
-        },
-        
-        if (juego$tiene_ficha) {
-          tagList(
-            tags$h4("Ficha docente avanzada"),
-            tags$p(
-              tags$a(
-                href = juego$ficha_pdf,
-                target = "_blank",
-                "Abrir ficha en PDF"
-              )
-            )
           )
         },
         
