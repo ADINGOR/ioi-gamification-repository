@@ -12,6 +12,8 @@ The repository also includes a **Shiny web application** that allows users to ex
 
 The app is deployed and can be freely used here: https://adingor.shinyapps.io/ioi-gamification-repository/
 
+There is also a youtube video introducing the repository here: https://www.youtube.com/watch?v=Bgrrctx4IsA 
+
 
 ## Purpose of the project
 
